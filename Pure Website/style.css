@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.main{
+    width: 100%;
+    height: 109vh;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.719)50%, rgb(0, 0, 0, 0.719)50%), url(showcase.jpg);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+.narbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+
+.logo{
+    color: orange;
+    font-size: 40px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.menu{
+    float: left;
+    width: 400px;
+    height: 75px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+        margin-left: 52px;
+    margin-top: 27px;
+    font-size: 14px;
+
+
+} 
+
+ul li a {
+
+    text-decoration: none;
+    color:white ;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+
+ul li a:hover{
+color: orange;
+border-bottom: 7px solid orange;
+}
+
+
+.Search{
+    float: left;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.srch{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid orange;
+    border-right: 0;
+    color: white;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    cursor: pointer;
+    border-left: 0;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: transparent;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin: 100px;
+    font-size: large;
+    
+}
+
+h1{
+    color: white;
+
+}
+
+span{
+    color: orange;
+}
+p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cn{
+    background-color: orange;
+    border: 0;
+    padding: 10px 40px 10px 40px ;
+    border-radius: 9px;
+}
+
+.login-form{
+width: 250px;
+height: 380px;
+background: linear-gradient( to top rgba(0, 0, 0, 0.716)50%,rgba(0, 0, 0, 0.716)50%;)
+position: absolute;
+top: -20px;
+left: 870px;
+    
+}
+
+.log{
+    margin: 20px; 
+    width: 80%;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: orange;
+}
+
+.inputs{
+    padding: 2%;
+    width: 76%;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.lgs{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    transition: 0.3s ease-in-out;
+}
+
+.lgs:hover{
+    background-color: rgb(255, 255, 255);
+}
+.lbl{
+    color: white;
+    cursor: pointer;
+    
+}
+.content{
+    float: left;
+    
+}
